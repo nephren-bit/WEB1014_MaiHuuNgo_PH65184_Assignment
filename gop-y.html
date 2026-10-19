@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Góp ý - Pit Lane VN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">PIT LANE <span>VN</span></a>
+            <nav class="nav">
+                <a href="index.html">Trang chủ</a>
+                <a href="gioi-thieu.html">Giới thiệu</a>
+                <a href="giai-dau.html">Giải đấu</a>
+                <a href="lien-he.html">Liên hệ</a>
+                <a href="gop-y.html" class="active">Góp ý</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner trang -->
+    <section class="page-hero">
+        <div class="container">
+            <p class="breadcrumb"><a href="index.html">Trang chủ</a> / Góp ý</p>
+            <h1>Góp ý</h1>
+            <p>Cảm nhận của bạn giúp Pit Lane VN hoàn thiện hơn mỗi ngày. Chỉ mất khoảng một phút.</p>
+        </div>
+    </section>
+
+    <section class="section section--light">
+        <div class="container">
+            <div class="card feedback-card">
+                <p class="alert" id="cam-on">Cảm ơn bạn đã góp ý! Ý kiến của bạn giúp Pit Lane VN tốt hơn.</p>
+                <h2 class="heading">Chia sẻ góp ý của bạn</h2>
+
+                <form action="#cam-on" method="get">
+                    <!-- Chấm sao: thứ tự 5 → 1, hiển thị đảo bằng row-reverse -->
+                    <div class="field">
+                        <span class="field-label">Bạn hài lòng với website ở mức nào?</span>
+                        <div class="rating">
+                            <input type="radio" name="danh-gia" id="star5" value="5">
+                            <label for="star5" title="5 sao">★</label>
+                            <input type="radio" name="danh-gia" id="star4" value="4" checked>
+                            <label for="star4" title="4 sao">★</label>
+                            <input type="radio" name="danh-gia" id="star3" value="3">
+                            <label for="star3" title="3 sao">★</label>
+                            <input type="radio" name="danh-gia" id="star2" value="2">
+                            <label for="star2" title="2 sao">★</label>
+                            <input type="radio" name="danh-gia" id="star1" value="1">
+                            <label for="star1" title="1 sao">★</label>
+                            <span class="rating-text">
+                                <span class="t1">1/5 · Chưa tốt</span>
+                                <span class="t2">2/5 · Tạm được</span>
+                                <span class="t3">3/5 · Khá</span>
+                                <span class="t4">4/5 · Rất tốt</span>
+                                <span class="t5">5/5 · Tuyệt vời</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Chọn mục góp ý -->
+                    <div class="field">
+                        <span class="field-label">Bạn muốn góp ý về mục nào?</span>
+                        <div class="chips">
+                            <input type="radio" name="muc" id="muc-giao-dien" value="giao-dien" checked>
+                            <label for="muc-giao-dien">Giao diện</label>
+                            <input type="radio" name="muc" id="muc-noi-dung" value="noi-dung">
+                            <label for="muc-noi-dung">Nội dung</label>
+                            <input type="radio" name="muc" id="muc-giai-dau" value="giai-dau">
+                            <label for="muc-giai-dau">Thông tin giải đấu</label>
+                            <input type="radio" name="muc" id="muc-khac" value="khac">
+                            <label for="muc-khac">Khác</label>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="gop-y">Nội dung góp ý</label>
+                        <textarea id="gop-y" name="gop-y" class="input" rows="5" placeholder="Bạn thích điều gì, và chúng tôi nên cải thiện điều gì?" required></textarea>
+                    </div>
+
+                    <div class="field">
+                        <label for="email" class="field-label">Email <small>(không bắt buộc, để nhận phản hồi)</small></label>
+                        <input type="email" id="email" name="email" class="input" placeholder="ten@email.com">
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn">Gửi góp ý</button>
+                        <small>Góp ý chỉ dùng để cải thiện website.</small>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <a href="index.html" class="logo">PIT LANE <span>VN</span></a>
+            <nav class="footer-nav">
+                <a href="gioi-thieu.html">Giới thiệu</a>
+                <a href="giai-dau.html">Giải đấu</a>
+                <a href="lien-he.html">Liên hệ</a>
+                <a href="gop-y.html">Góp ý</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 Pit Lane VN · Dự án học tập môn Thiết kế web</p>
+                <p>Website của người hâm mộ, không phải trang chính thức của FIA WEC.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

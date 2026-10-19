@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Pit Lane VN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">PIT LANE <span>VN</span></a>
+            <nav class="nav">
+                <a href="index.html">Trang chủ</a>
+                <a href="gioi-thieu.html">Giới thiệu</a>
+                <a href="giai-dau.html">Giải đấu</a>
+                <a href="lien-he.html" class="active">Liên hệ</a>
+                <a href="gop-y.html">Góp ý</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner trang -->
+    <section class="page-hero">
+        <div class="container">
+            <p class="breadcrumb"><a href="index.html">Trang chủ</a> / Liên hệ</p>
+            <h1>Liên hệ</h1>
+            <p>Có câu hỏi hoặc muốn trao đổi về giải WEC? Gửi tin nhắn cho chúng tôi.</p>
+        </div>
+    </section>
+
+    <section class="section section--light">
+        <div class="container contact-grid">
+
+            <!-- Form gửi tin nhắn -->
+            <div class="card form-card">
+                <p class="alert" id="da-gui">Cảm ơn bạn! Tin nhắn đã được gửi, chúng tôi sẽ phản hồi qua email sớm nhất.</p>
+                <h2 class="heading">Gửi tin nhắn</h2>
+                <p>Chúng tôi sẽ phản hồi qua email sớm nhất có thể.</p>
+
+                <form action="#da-gui" method="get">
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="ho-ten">Họ và tên</label>
+                            <input type="text" id="ho-ten" name="ho-ten" class="input" placeholder="Nguyễn Văn A" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="input" placeholder="ten@email.com" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="noi-dung">Nội dung</label>
+                        <textarea id="noi-dung" name="noi-dung" class="input" rows="5" placeholder="Bạn muốn trao đổi về điều gì?" required></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn">Gửi tin nhắn</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Thông tin liên lạc -->
+            <aside class="info-card">
+                <h2>Thông tin liên lạc</h2>
+                <dl>
+                    <dt>Email</dt>
+                    <dd>contact@pitlanevn.example</dd>
+                    <dt>Phản hồi trong</dt>
+                    <dd>1–2 ngày làm việc</dd>
+                    <dt>Muốn đánh giá website?</dt>
+                    <dd><a href="gop-y.html">Gửi góp ý tại đây</a></dd>
+                </dl>
+                <div class="socials">
+                    <a href="https://www.facebook.com/FIAWEC" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://www.youtube.com/@FIAWEC" target="_blank" rel="noopener">YouTube</a>
+                    <a href="https://www.instagram.com/fiawec/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </aside>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <a href="index.html" class="logo">PIT LANE <span>VN</span></a>
+            <nav class="footer-nav">
+                <a href="gioi-thieu.html">Giới thiệu</a>
+                <a href="giai-dau.html">Giải đấu</a>
+                <a href="lien-he.html">Liên hệ</a>
+                <a href="gop-y.html">Góp ý</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 Pit Lane VN · Dự án học tập môn Thiết kế web</p>
+                <p>Website của người hâm mộ, không phải trang chính thức của FIA WEC.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
